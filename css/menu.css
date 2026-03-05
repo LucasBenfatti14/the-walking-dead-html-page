@@ -1,0 +1,41 @@
+body{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+#logo{
+    background-image: url(../img/The_Walking_Dead_2010_logo\ \(1\).png);
+    width: 437px;
+    height: 101px;
+}
+
+#menu{
+    width: 100%;
+}
+
+ul{
+    border: 3px solid #333;
+    background-color: black;
+    margin: 10px;
+    padding: 14px;
+    border-radius: 0 10px 0 10px;
+}
+
+ul li{
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+
+ul li a{
+    color: beige;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color: #333;
+    color: black;
+    padding: 15px 0 15px 0;
+}

@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url(../img/wallpapersden.com_walking-dead-destinies-game-city_1920x1080.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: arial, verdana, tahoma;
+    font-size: 14px;
+}
+
+#container{
+    width: 900px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(35 24 20 / 80%);
+    color: #e2d8d8;
+}
+
+.banner {
+    background-image: url(../img/CRMSoldiers.webp);
+    width: 100%;
+    height: 300px;
+    border: 2px solid #54534a;
+    background-size: cover;
+    background-position: 0px -190px;
+    border-radius: 20px 0px 20px 0px;
+}
+
+img{
+    width: 400;
+    height: 300;
+    border-radius: 10px;
+    object-position: center;    
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: tahoma, verdana, arial;
+    color: #b1a6a4;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+h2{
+    background-color: #00000073;
+    border-radius: 30px 0px 30px 0px;
+    font-style: italic;
+    text-align: center;
+    padding: 3px;
+}
+
+h3{
+    color: #ffffff;
+    border-bottom: 1px solid #4b4b4b;
+    display: inline-block;
+    margin: 20px 0px 10px 0px;
+}
+
+p {
+    margin: 10px 10px 30px 10px;
+    text-indent: 20px;
+    line-height: 22px;
+}
+
+p span{
+    background-color: #870101d9;
+    color: black;
+    padding: 0px 10px 3px 10px;
+    border-radius: 15px;
+    border-bottom: 1px solid #474138;
+}
+
+ol, ul{
+    border: 3px solid #333;
+    background-color: #000;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 0 10px 0 10px;
+}
+
+li, li a{
+    padding: 10px;
+    color: rgb(250, 242, 242);
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: rgb(255 99 71 / 35%);
+    border-radius: 10px;
+    border-bottom: 1px solid;
+    color: rgb(252, 208, 208);
+}
+
+iframe{
+    width: 100%;
+    height: 220px;
+}
+
+hr{
+    display: none;
+}
